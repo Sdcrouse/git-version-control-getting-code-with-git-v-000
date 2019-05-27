@@ -4,7 +4,7 @@
 
 - Copy a repository to your local machine with `git clone`
 - List remotes with `git remote`
-- Duplicate other organizations' repositories into your own via GitHub with `git fork` 
+- Duplicate other organizations' repositories into your own via GitHub with the "Fork" button
 
 ## Introduction
 
@@ -81,10 +81,10 @@ $  git remote show origin
 
 The "remote address" `git@github.com:facebook/react.git` assigned to the
 "remote name," `origin` is the same thing you copied from the
-GitHub web interface. This confirms that the _remote repository_ you 
+GitHub web interface. This confirms that the _remote repository_ you
 _cloned_ automatically set up a _remote_ called `origin`.
 
-## Duplicate Other Organizations' Repositories into Your Own via GitHub with `git fork`
+## Duplicate Other Organizations' Repositories into Your Own via GitHub with the "Fork" Button
 
 Forking a GitHub repository is just a way to create a personal, online duplicate
 of it. When you fork a repository, GitHub creates a duplicate of that repository
@@ -96,7 +96,7 @@ copy the remote repository `facebook/react` and create it under my name as
 repository_.
 
 It's like saying "Hey, can I have the Louvre's version of _The Mona Lisa_?" The
-Louve would say, "No." If you were to create a perfect online duplicate by _forking_
+Louvre would say, "No." If you were to create a perfect online duplicate by _forking_
 it from `louvre/mona_lisa` to `your-name/mona_lisa`, and then were to clone
 from _that_ remote repository, then the Louvre can keep their copy and you can
 update your copy as you choose.
@@ -128,5 +128,5 @@ update its `master` branch, **fork**.
 
 ## Conclusion
 
-GitHub gives developers many ways to collaborate. Using `git fork` and `git
+GitHub gives developers many ways to collaborate. Using GitHub's "Fork" button and `git
 clone` together allows you to make copies of others' code.
