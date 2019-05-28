@@ -82,7 +82,7 @@ $  git remote show origin
 The "remote address" `git@github.com:facebook/react.git` assigned to the
 "remote name," `origin` is the same thing you copied from the
 GitHub web interface. This confirms that the _remote repository_ you
-_cloned_ automatically set up a _remote_ called `origin`.
+_cloned_ automatically set up a _remote name_ called `origin`.
 
 ## Duplicate Other Organizations' Repositories into Your Own via GitHub with the "Fork" Button
 
